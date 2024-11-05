@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <!-- <link rel="stylesheet" href="part1.css"> -->
+    <link rel="stylesheet" href="part2.css">
+    <link rel="stylesheet" href="part1.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="main-container">
+        <div>
+            <h1 id="network">Network</h1>
+            <h1 id="feed">Your feed</h1>
+        </div>
+
+        <div id="content">
+
+            <div id="user-profile">
+                <img src="images/user-circle.png" alt="user-icon">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+
+            <div id="posts">
+                <div class="container">
+                    <div class="top-part">
+                        <h2>Neil M</h2>
+
+                        <div>
+                            <span><span id="number-spn-1">9</span> like(s)</span>
+                            <button onclick="increaseLikes(document.querySelector('#number-spn-1'))">Like</button>
+                        </div>
+
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+
+                <div class="container">
+                    <div class="top-part">
+                        <h2>Nichole K</h2>
+
+                        <div>
+                            <span><span id="number-spn-2">12</span> like(s)</span>
+                            <button onclick="increaseLikes(document.querySelector('#number-spn-2'))">Like</button>
+                        </div>
+
+                    </div>
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+
+                <div class="container">
+                    <div class="top-part">
+                        <h2>Jim R</h2>
+
+                        <div>
+                            <span><span id="number-spn-3">9</span> like(s)</span>
+                            <button onclick="increaseLikes(document.querySelector('#number-spn-3'))">Like</button>
+                        </div>
+
+                    </div>
+                    <p>I can't stop listening to the <a href="#">new album</a>.<br>Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+#main-container{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 580px;
+    margin: auto;
+}
+
+#network{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    
+}
+
+#feed{
+    text-align: center;
+}
+
+h1{
+    font-weight: lighter;
+    padding: 10px;
+}
+
+#user-profile{
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px 35px;
+    width: 150px;
+    align-items: center;
+    flex: 1;
+    height: 220px;
+}
+
+#user-profile img{
+    width: 80px;
+}
+
+#content{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#posts{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 3;
+}
+
+#posts .container{
+    margin: 0px;
+}
+
+a{
+    color: #0c87b4;
+}
